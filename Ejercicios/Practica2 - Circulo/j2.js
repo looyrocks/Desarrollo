@@ -17,7 +17,7 @@ function draw() {
 
   noFill();
   stroke(128);
-  strokeWeight(8);
+  strokeWeight(3);
 
   /*Un círculo es una forma redonda definida por los parámetros x, y, d. 
   x e y establecen la ubicación de su centro. 
