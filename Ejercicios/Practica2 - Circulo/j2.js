@@ -2,11 +2,6 @@ let circleX = 200;
 let circleY = 150;
 let circleRadius = 75;
 
-let graphX = 50;
-let graphY = 300;
-let graphAmplitude = 50;
-let graphPeriod = 300;
-
 function setup() {
   createCanvas(400, 400);
   angleMode(DEGREES);
@@ -49,7 +44,14 @@ Para colorear una línea, use la función stroke().
 Para cambiar su ancho, use la función StrokeWeight(). 
 Una línea no se puede rellenar, por lo que la función fill() no afectará el color de la línea.
 */
+
+/*para el ejemplo
+line (200, 150 - 75, 200, 150 + 75);
+line (200-75, 150, 200+75, 150);
+*/
   line(circleX, circleY - circleRadius, circleX, circleY + circleRadius);
+
+
   line(circleX - circleRadius, circleY, circleX + circleRadius, circleY);
 
  
