@@ -3,12 +3,12 @@ let circleY = 150;
 let circleRadius = 75;
 
 let graphX = 50;
-let graphY = 300;
-let graphAmplitude = 50;
+let graphY = 380;
+let graphAmplitude = circleRadius;
 let graphPeriod = 300;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 500);
   angleMode(DEGREES);
   describe(
     'Demostración animada de un punto que se mueve alrededor del círculo unitario.'
