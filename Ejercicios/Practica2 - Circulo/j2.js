@@ -13,21 +13,11 @@ function setup() {
 function draw() {
   background(0);
 
-  // Establezca el ángulo en función de frameCount y muestre el valor actual
-
-
-  
-
-
-  fill(255);
-  textSize(20);
-  textAlign(LEFT, CENTER);
-
   // Dibujar circulo y diámetros
 
   noFill();
   stroke(128);
-  strokeWeight(3);
+  strokeWeight(8);
 
   /*Un círculo es una forma redonda definida por los parámetros x, y, d. 
   x e y establecen la ubicación de su centro. 
